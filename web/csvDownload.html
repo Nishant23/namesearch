@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.min.js"></script>
+        <title>download</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        
+        <nav style="border-color:#e7e7e7; background-color:#f8f8f8; border-radius:4px; min-height:50px; margin-bottom: 20px; border:1px solid transparent; display:block; ">
+            <div style="padding-right:15px; padding-left:15px; margin-left:auto; margin-right:auto;">
+                <div style="border-color:#e7e7e7; margin-right:0; margin-left:0; display:block; height: auto; padding-bottom:0; overflow:visible; width:auto; border-top:0; box-shadow:none; padding-right:15px; padding-left:15px; margin-top:15px;">
+                    <ul style="float:right; padding-left:0; list-style:none; box-sizing:border-box;">
+                        <li style="display:inline; margin:10px;"><a href="showdata.jsp" style="text-decoration:none;">Go Back</a></li>
+                        <li style="display:inline; margin:10px;"><a href="pdfOptions.html" style="text-decoration:none;">Next Search</a></li>
+                        <li style="display:inline; margin:10px;"><a href="logoutServlet" style="text-decoration:none;">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </nav>
+        
+        <h1 class="text-center" style="font-size: 25px; margin-top: 30px;">Your file is ready to be downloaded</h1>
+        <h1 class="text-center" style="font-size: 20px; margin-top: 30px;">Click download button to download your file</h1>
+        <form class="form-horizontal" style="margin-top:150px;" action="fileDownloadservlet" method="get">
+            
+            <div class="form-group">
+                <div class="col-sm-offset-5 col-sm-7">
+                    <button type="submit" class="btn btn-default">Download</button>
+                </div>
+            </div>
+            
+            
+            
+         </form>
+    </body>
+</html>
